@@ -9,5 +9,16 @@ bool Engine::ProcessMessages() {
 }
 
 void Engine::Update() {
+	while (!keyboard.CharBufferIsEmpty()) {
+		unsigned char Char = keyboard.ReadChar();
+	}
 
+	while (!keyboard.KeyBufferIsEmpty()) {
+		KeyboardEvent keyBoardEvent = keyboard.ReadKey();
+		unsigned char keyCode = keyBoardEvent.GetKeyCode();
+	}
+
+	while (!mouse.EventBufferIsEmpty()) {
+		MouseEvent mouseEvent = mouse.ReadEvent();
+	}
 }

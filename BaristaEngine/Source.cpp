@@ -11,7 +11,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 	Engine.Init(hInstance, "Barista Engine - DirectX 11", "BaristaDX11", 1280, 720);
 
 	while (Engine.ProcessMessages() == true) {
-		Sleep(50);
+		Engine.Update();
 	}
 
 	return 0;
