@@ -1,6 +1,7 @@
 #include "WindowContainer.h"
 
 bool RenderWindow::Init(WindowContainer* pWindowContainer, HINSTANCE hInstance, std::string windowTitle, std::string windowClass, int width, int height) {
+	OutputDebugStringA("!! - Initialising render window...\n");
 	this->hInstance = hInstance;
 	this->width = width;
 	this->height = height;
@@ -35,14 +36,14 @@ bool RenderWindow::Init(WindowContainer* pWindowContainer, HINSTANCE hInstance, 
 	SetForegroundWindow(this->handle);
 	SetFocus(this->handle);
 
-	return false;
+	return true;
 }
 
 bool RenderWindow::ProcessMessages() {
 	MSG msg;
 	ZeroMemory(&msg, sizeof(MSG));
 
-	if (PeekMessage(&msg,
+	while (PeekMessage(&msg,
 		this->handle,
 		0,
 		0,
@@ -60,6 +61,11 @@ bool RenderWindow::ProcessMessages() {
 	}
 
 	return true;
+}
+
+HWND RenderWindow::getHWND() const
+{
+	return this->handle;
 }
 
 RenderWindow::~RenderWindow() {

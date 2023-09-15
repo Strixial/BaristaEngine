@@ -2,7 +2,28 @@
 
 // TODO: https://www.youtube.com/watch?v=wkwgTBvjfA8 @ 13:49
 bool Engine::Init(HINSTANCE hInstance, std::string windowTitle, std::string windowClass, int width, int height) {
-	return this->renderWindow.Init(this, hInstance, windowTitle, windowClass, width, height);
+	OutputDebugStringA("!! - Initialising engine\n");
+
+	auto renderWindowResult = this->renderWindow.Init(this, hInstance, windowTitle, windowClass, width, height);
+	
+	if (!renderWindowResult) {
+		OutputDebugStringA("!! - Render window failed to initialise for whatever reason.\n");
+		return false;
+	}
+	else {
+		OutputDebugStringA("!! - Render window seems to be fine, initialising graphics system...\n");
+	}
+	
+	auto DXInitResult = graphics.Init(this->renderWindow.getHWND(), width, height);
+	if (!DXInitResult) {
+		OutputDebugStringA("!! - Graphics system didn't initialise properly.\n");
+		return false;
+	}
+	else {
+		OutputDebugStringA("!! - Graphics system seems to be fine, finished engine init.\n");
+	}
+
+	return true;
 }
 
 bool Engine::ProcessMessages() {
@@ -23,13 +44,12 @@ void Engine::Update() {
 		MouseEvent mouseEvent = mouse.ReadEvent();
 
 		if (mouseEvent.GetType() == MouseEvent::EventType::RAW_MOVE) {
-			std::string outputString = "X: ";
-			outputString += std::to_string(mouseEvent.GetPosX());
-			outputString += ", Y: ";
-			outputString += std::to_string(mouseEvent.GetPosY());
-			outputString += "\n";
-			
-			OutputDebugStringA(outputString.c_str());
+
 		}
 	}
+}
+
+void Engine::RenderFrame()
+{
+	graphics.RenderFrame();
 }
