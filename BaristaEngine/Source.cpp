@@ -8,7 +8,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 	_In_ int nCmdShow)
 {
 	RenderWindow Window;
-	Window.Init(hInstance, "Testing", "MyWindowClass", 800, 600);
+	Window.Init(hInstance, "Barista Engine - DirectX 11", "BaristaDX11", 800, 600);
 
 	while (Window.ProcessMessages() == true) {
 		Sleep(50);
