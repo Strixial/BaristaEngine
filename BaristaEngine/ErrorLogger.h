@@ -4,6 +4,7 @@
 
 class ErrorLogger {
 public:
+	static void CreateErrorBox(std::string message);
+	static void CreateErrorBox(HRESULT hResult, std::string message);
 	static void Log(std::string message);
-	static void Log(HRESULT hResult, std::string message);
 };
