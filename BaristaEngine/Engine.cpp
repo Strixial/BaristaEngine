@@ -1,5 +1,6 @@
 #include "Engine.h"
 
+// TODO: https://www.youtube.com/watch?v=wkwgTBvjfA8 @ 13:49
 bool Engine::Init(HINSTANCE hInstance, std::string windowTitle, std::string windowClass, int width, int height) {
 	return this->renderWindow.Init(this, hInstance, windowTitle, windowClass, width, height);
 }
@@ -20,5 +21,15 @@ void Engine::Update() {
 
 	while (!mouse.EventBufferIsEmpty()) {
 		MouseEvent mouseEvent = mouse.ReadEvent();
+
+		if (mouseEvent.GetType() == MouseEvent::EventType::RAW_MOVE) {
+			std::string outputString = "X: ";
+			outputString += std::to_string(mouseEvent.GetPosX());
+			outputString += ", Y: ";
+			outputString += std::to_string(mouseEvent.GetPosY());
+			outputString += "\n";
+			
+			OutputDebugStringA(outputString.c_str());
+		}
 	}
 }
