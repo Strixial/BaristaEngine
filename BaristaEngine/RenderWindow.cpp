@@ -12,15 +12,22 @@ bool RenderWindow::Init(WindowContainer* pWindowContainer, HINSTANCE hInstance, 
 
 	this->RegisterWindowClass();
 
+	RECT windowRect;
+	windowRect.left = GetSystemMetrics(SM_CXSCREEN) / 2 - this->width / 2;
+	windowRect.top = GetSystemMetrics(SM_CYSCREEN) / 2 - this->height / 2;
+	windowRect.right = windowRect.left + this->width;
+	windowRect.bottom = windowRect.top + this->height;
+	AdjustWindowRect(&windowRect, WS_CAPTION | WS_MINIMIZEBOX | WS_SYSMENU, FALSE);
+
 	this->handle = CreateWindowEx(
 		0,
 		this->windowClassWide.c_str(),
 		this->windowTitleWide.c_str(),
 		WS_CAPTION | WS_MINIMIZEBOX | WS_SYSMENU,
-		0,
-		0,
-		this->width,
-		this->height,
+		windowRect.left,
+		windowRect.top,
+		windowRect.right - windowRect.left,
+		windowRect.bottom - windowRect.top,
 		NULL,
 		NULL,
 		this->hInstance,

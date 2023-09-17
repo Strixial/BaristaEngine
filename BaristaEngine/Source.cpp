@@ -7,6 +7,12 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 {
 	OutputDebugStringA("!! - Initialising Barista\n");
 	
+	HRESULT hr = CoInitialize(NULL);
+	if (FAILED(hr)) {
+		ErrorLogger::CreateErrorBox("Failed to call CoInitialize");
+		return -1;
+	}
+
 	Engine Engine;
 	Engine.Init(hInstance, "Barista Engine - DirectX 11", "BaristaDX11", 1280, 720);
 
