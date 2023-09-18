@@ -269,7 +269,7 @@ bool Graphics::InitScene()
 		return false;
 	}
 
-	hr = DirectX::CreateWICTextureFromFile(this->device.Get(), L"Data\\Textures\\neco.jpg", nullptr, myTexture.GetAddressOf());
+	hr = DirectX::CreateWICTextureFromFile(this->device.Get(), L"Data\\Textures\\ultrakill.png", nullptr, myTexture.GetAddressOf());
 	if (FAILED(hr))
 	{
 		ErrorLogger::CreateErrorBox(hr, "Failed to create wic texture from file.");
@@ -343,5 +343,5 @@ void Graphics::RenderFrame()
 	spriteFont->DrawString(spriteBatch.get(), L"Barista Engine", DirectX::XMFLOAT2(10, 10), DirectX::Colors::White, 0.0f, DirectX::XMFLOAT2(0.0f, 0.0f), DirectX::XMFLOAT2(1.0f, 1.0f));
 	spriteBatch->End();
 
-	this->swapchain->Present(1, NULL);
+	this->swapchain->Present(0, NULL);
 }

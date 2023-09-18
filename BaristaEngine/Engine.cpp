@@ -2,7 +2,8 @@
 
 // TODO: https://www.youtube.com/watch?v=wkwgTBvjfA8 @ 13:49
 bool Engine::Init(HINSTANCE hInstance, std::string windowTitle, std::string windowClass, int width, int height) {
-	OutputDebugStringA("!! - Initialising engine\n");
+	timer.Start();
+	keyboard.EnableAutoRepeatKeys();
 
 	auto renderWindowResult = this->renderWindow.Init(this, hInstance, windowTitle, windowClass, width, height);
 	
@@ -31,6 +32,9 @@ bool Engine::ProcessMessages() {
 }
 
 void Engine::Update() {
+	float dt = timer.GetMillisecondsElapsed();
+	timer.Restart();
+
 	while (!keyboard.CharBufferIsEmpty()) {
 		unsigned char Char = keyboard.ReadChar();
 	}
@@ -38,26 +42,60 @@ void Engine::Update() {
 	while (!keyboard.KeyBufferIsEmpty()) {
 		KeyboardEvent keyBoardEvent = keyboard.ReadKey();
 		unsigned char keyCode = keyBoardEvent.GetKeyCode();
+		/*
+		if (keyCode == 'W') {
+			this->graphics.camera.AdjustPosition(this->graphics.camera.GetForwardVector() * cameraSpeed * dt);
+		}
+		if (keyCode == 'S') {
+			this->graphics.camera.AdjustPosition(this->graphics.camera.GetForwardVector() * -1.0f * cameraSpeed * dt);
+		}
+		if (keyCode == 'A') {
+			this->graphics.camera.AdjustPosition(this->graphics.camera.GetRightVector() * -1.0f * cameraSpeed * dt);
+		}
+		if (keyCode == 'D') {
+			this->graphics.camera.AdjustPosition(this->graphics.camera.GetRightVector() * cameraSpeed * dt);
+		}
+		if (keyCode == VK_SPACE) {
+			this->graphics.camera.AdjustPosition(this->graphics.camera.GetUpVector() * cameraSpeed * dt);
+		}
+		if (keyCode == VK_CONTROL) {
+			this->graphics.camera.AdjustPosition(this->graphics.camera.GetUpVector() * -1.0f * cameraSpeed * dt);
+		}*/
 	}
 
 	while (!mouse.EventBufferIsEmpty()) {
 		MouseEvent mouseEvent = mouse.ReadEvent();
 
-		if (mouseEvent.GetType() == MouseEvent::EventType::RAW_MOVE) {
-			this->graphics.camera.AdjustRotation((float)mouseEvent.GetPosY() * 0.01f, (float)mouseEvent.GetPosX() * 0.01f, 0.0f);
+		if (mouseEvent.GetType() == MouseEvent::EventType::RAW_MOVE && mouse.IsRightDown()) {
+			this->graphics.camera.AdjustRotation((float)mouseEvent.GetPosY() * 0.005f, (float)mouseEvent.GetPosX() * 0.01f, 0.0f);
 		}
 	}
 
-	OutputDebugStringA("Update event\n");
+	const float cameraSpeed = 0.006f;
 
-	const float cameraSpeed = 0.02f;
-
-	if (keyboard.KeyIsPressed('W')) {
-		this->graphics.camera.AdjustPosition(this->graphics.camera.GetForwardVector() * cameraSpeed);
-		OutputDebugStringA("Moving forward\n");
+	if (keyboard.KeyIsPressed('W'))
+	{
+		this->graphics.camera.AdjustPosition(this->graphics.camera.GetForwardVector() * cameraSpeed * dt);
 	}
-	else {
-		OutputDebugStringA("Not moving forward\n");
+	if (keyboard.KeyIsPressed('S'))
+	{
+		this->graphics.camera.AdjustPosition(this->graphics.camera.GetForwardVector() * -1.0f * cameraSpeed * dt);
+	}
+	if (keyboard.KeyIsPressed('A'))
+	{
+		this->graphics.camera.AdjustPosition(this->graphics.camera.GetRightVector() * -1.0f * cameraSpeed * dt);
+	}
+	if (keyboard.KeyIsPressed('D'))
+	{
+		this->graphics.camera.AdjustPosition(this->graphics.camera.GetRightVector() * cameraSpeed * dt);
+	}
+	if (keyboard.KeyIsPressed(VK_SPACE))
+	{
+		this->graphics.camera.AdjustPosition(this->graphics.camera.GetUpVector() * cameraSpeed * dt);
+	}
+	if (keyboard.KeyIsPressed(VK_CONTROL))
+	{
+		this->graphics.camera.AdjustPosition(this->graphics.camera.GetUpVector() * -1.0f * cameraSpeed * dt);
 	}
 }
 
