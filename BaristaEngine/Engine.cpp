@@ -44,8 +44,20 @@ void Engine::Update() {
 		MouseEvent mouseEvent = mouse.ReadEvent();
 
 		if (mouseEvent.GetType() == MouseEvent::EventType::RAW_MOVE) {
-
+			this->graphics.camera.AdjustRotation((float)mouseEvent.GetPosY() * 0.01f, (float)mouseEvent.GetPosX() * 0.01f, 0.0f);
 		}
+	}
+
+	OutputDebugStringA("Update event\n");
+
+	const float cameraSpeed = 0.02f;
+
+	if (keyboard.KeyIsPressed('W')) {
+		this->graphics.camera.AdjustPosition(this->graphics.camera.GetForwardVector() * cameraSpeed);
+		OutputDebugStringA("Moving forward\n");
+	}
+	else {
+		OutputDebugStringA("Not moving forward\n");
 	}
 }
 

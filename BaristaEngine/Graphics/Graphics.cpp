@@ -316,20 +316,8 @@ void Graphics::RenderFrame()
 	UINT stride = sizeof(Vertex);
 	UINT offset = 0;
 
-	auto worldMatrix = DirectX::XMMatrixIdentity();
-
-	static float sine = 0.0f;
-	sine += 1.0f / 60.0f;
-
-	//auto cameraPosition = DirectX::XMVectorSet(sin(sine), cos(sine), -2.0f, 0.0f);
-	//auto cameraLookAt = DirectX::XMVectorSet(0.0f, 0.0f, 0.0f, 0.0f);
-	//auto cameraUp = DirectX::XMVectorSet(0.0f, 1.0f, 0.0f, 0.0f);
-	//auto cameraCFrame = DirectX::XMMatrixLookAtLH(cameraPosition, cameraLookAt, cameraUp);
-	//auto projectionMatrix = DirectX::XMMatrixPerspectiveFovLH(fovRadians, aspectRatio, nearZ, farZ);
-
-	camera.SetPosition(sin(sine), cos(sine), -2.0f);
-	camera.LookAt(XMFLOAT3(0.0f, 0.0f, 0.0f));
-
+	XMMATRIX worldMatrix = DirectX::XMMatrixIdentity();
+	
 	auto cameraCFrame = camera.GetViewMatrix();
 	auto projectionMatrix = camera.GetProjectionMatrix();
 

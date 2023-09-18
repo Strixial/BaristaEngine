@@ -127,6 +127,21 @@ void Camera::LookAt(XMFLOAT3 lookAtPos)
 	this->SetRotation(pitchAngle, yawAngle, 0.0f);
 }
 
+const XMVECTOR& Camera::GetForwardVector()
+{
+	return this->vecForward;
+}
+
+const XMVECTOR& Camera::GetUpVector()
+{
+	return this->vecUp;
+}
+
+const XMVECTOR& Camera::GetRightVector()
+{
+	return this->vecRight;
+}
+
 void Camera::UpdateViewMatrix() //Updates view matrix and also updates the movement vectors
 {
 	//Calculate camera rotation matrix
@@ -139,4 +154,10 @@ void Camera::UpdateViewMatrix() //Updates view matrix and also updates the movem
 	XMVECTOR upDir = XMVector3TransformCoord(this->DEFAULT_UP_VECTOR, camRotationMatrix);
 	//Rebuild view matrix
 	this->viewMatrix = XMMatrixLookAtLH(this->posVector, camTarget, upDir);
+
+	XMMATRIX vecRotationMatrix = XMMatrixRotationRollPitchYaw(0.0f, this->rot.y, this->rot.z);
+	this->vecForward = XMVector3TransformCoord(this->DEFAULT_FORWARD_VECTOR, vecRotationMatrix);
+	this->vecUp = XMVector3TransformCoord(this->DEFAULT_UP_VECTOR, vecRotationMatrix);
+	this->vecRight = XMVector3TransformCoord(this->DEFAULT_RIGHT_VECTOR, vecRotationMatrix);
+
 }
