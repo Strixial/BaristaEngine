@@ -21,5 +21,9 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 		Engine.RenderFrame();
 	}
 
+	ImGui_ImplDX11_Shutdown();
+	ImGui_ImplWin32_Shutdown();
+	ImGui::DestroyContext();
+
 	return 0;
 }
