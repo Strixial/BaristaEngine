@@ -109,6 +109,753 @@
     <ClCompile Include="Graphics\ImGui\imgui_widgets.cpp">
       <Filter>Source Files\Graphics\ImGui</Filter>
     </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\Anyification.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\ApplyTypeFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\AstJsonEncoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\AstQuery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\Autocomplete.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\BuiltinDefinitions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\Clone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\Constraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\ConstraintGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\ConstraintSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\DataFlowGraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\DcrLogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\Def.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\Differ.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\EmbeddedBuiltinDefinitions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\Error.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\Frontend.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\GlobalTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\Instantiation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\IostreamHelpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\JsonEmitter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\Linter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\LValue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\Module.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\NonStrictTypeChecker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\Normalize.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\Quantify.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\Refinement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\RequireTracer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\Scope.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\Simplify.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\Substitution.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\Subtyping.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\Symbol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\ToDot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\TopoSortStatements.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\ToString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\Transpiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\TxnLog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\Type.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\TypeArena.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\TypeAttach.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\TypeChecker2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\TypedAllocator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\TypeFamily.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\TypeInfer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\TypeOrPack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\TypePack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\TypePath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\TypeUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\Unifiable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\Unifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Analysis\src\Unifier2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Ast\src\Ast.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Ast\src\Confusables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Ast\src\Lexer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Ast\src\Location.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Ast\src\Parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Ast\src\StringUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Ast\src\TimeTrace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\CodeGen\src\AssemblyBuilderA64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\CodeGen\src\AssemblyBuilderX64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\CodeGen\src\CodeAllocator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\CodeGen\src\CodeBlockUnwind.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\CodeGen\src\CodeGen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\CodeGen\src\CodeGenA64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\CodeGen\src\CodeGenAssembly.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\CodeGen\src\CodeGenUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\CodeGen\src\CodeGenX64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\CodeGen\src\EmitBuiltinsX64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\CodeGen\src\EmitCommonX64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\CodeGen\src\EmitInstructionX64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\CodeGen\src\IrAnalysis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\CodeGen\src\IrBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\CodeGen\src\IrCallWrapperX64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\CodeGen\src\IrDump.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\CodeGen\src\IrLoweringA64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\CodeGen\src\IrLoweringX64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\CodeGen\src\IrRegAllocA64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\CodeGen\src\IrRegAllocX64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\CodeGen\src\IrTranslateBuiltins.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\CodeGen\src\IrTranslation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\CodeGen\src\IrUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\CodeGen\src\IrValueLocationTracking.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\CodeGen\src\lcodegen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\CodeGen\src\NativeState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\CodeGen\src\OptimizeConstProp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\CodeGen\src\OptimizeFinalX64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\CodeGen\src\UnwindBuilderDwarf2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\CodeGen\src\UnwindBuilderWin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Compiler\src\BuiltinFolding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Compiler\src\Builtins.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Compiler\src\BytecodeBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Compiler\src\Compiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Compiler\src\ConstantFolding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Compiler\src\CostModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Compiler\src\lcode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Compiler\src\TableShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Compiler\src\Types.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Compiler\src\ValueTracking.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Config\src\Config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\Config\src\LinterConfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\extern\isocline\src\attr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\extern\isocline\src\bbcode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\extern\isocline\src\bbcode_colors.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\extern\isocline\src\common.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\extern\isocline\src\completers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\extern\isocline\src\completions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\extern\isocline\src\editline.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\extern\isocline\src\editline_completion.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\extern\isocline\src\editline_help.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\extern\isocline\src\editline_history.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\extern\isocline\src\highlight.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\extern\isocline\src\history.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\extern\isocline\src\isocline.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\extern\isocline\src\stringbuf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\extern\isocline\src\term.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\extern\isocline\src\term_color.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\extern\isocline\src\tty.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\extern\isocline\src\tty_esc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\extern\isocline\src\undo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\extern\isocline\src\wcwidth.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\fuzz\compiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\fuzz\format.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\fuzz\linter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\fuzz\number.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\fuzz\parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\fuzz\proto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\fuzz\protoprint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\fuzz\prototest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\fuzz\transpiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\fuzz\typeck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\AssemblyBuilderA64.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\AssemblyBuilderX64.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\AstJsonEncoder.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\AstQuery.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\AstQueryDsl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\AstVisitor.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\Autocomplete.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\BuiltinDefinitions.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\ClassFixture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\CodeAllocator.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\Compiler.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\Config.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\Conformance.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\ConstraintGeneratorFixture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\ConstraintSolver.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\CostModel.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\DataFlowGraph.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\DenseHash.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\DiffAsserts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\Differ.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\Error.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\Fixture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\Frontend.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\InsertionOrderedMap.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\IrBuilder.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\IrCallWrapperX64.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\IrRegAllocX64.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\JsonEmitter.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\Lexer.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\Linter.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\LValue.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\Module.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\NonstrictMode.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\NonStrictTypeChecker.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\Normalize.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\NotNull.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\Parser.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\RegisterCallbacks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\Repl.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\RequireTracer.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\RuntimeLimits.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\Simplify.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\StringUtils.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\Subtyping.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\Symbol.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\ToDot.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\TopoSort.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\ToString.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\Transpiler.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\TxnLog.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\TypeFamily.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\TypeInfer.aliases.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\TypeInfer.annotations.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\TypeInfer.anyerror.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\TypeInfer.builtins.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\TypeInfer.cfa.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\TypeInfer.classes.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\TypeInfer.definitions.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\TypeInfer.functions.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\TypeInfer.generics.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\TypeInfer.intersectionTypes.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\TypeInfer.loops.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\TypeInfer.modules.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\TypeInfer.negations.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\TypeInfer.oop.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\TypeInfer.operators.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\TypeInfer.primitives.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\TypeInfer.provisional.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\TypeInfer.refinements.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\TypeInfer.rwprops.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\TypeInfer.singletons.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\TypeInfer.tables.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\TypeInfer.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\TypeInfer.tryUnify.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\TypeInfer.typePacks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\TypeInfer.typestates.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\TypeInfer.unionTypes.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\TypeInfer.unknownnever.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\TypePack.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\TypePath.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\TypeVar.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\Unifier2.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\Variant.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\tests\VisitType.test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\VM\src\lapi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\VM\src\laux.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\VM\src\lbaselib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\VM\src\lbitlib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\VM\src\lbuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\VM\src\lbuflib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\VM\src\lbuiltins.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\VM\src\lcorolib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\VM\src\ldblib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\VM\src\ldebug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\VM\src\ldo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\VM\src\lfunc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\VM\src\lgc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\VM\src\lgcdebug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\VM\src\linit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\VM\src\lmathlib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\VM\src\lmem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\VM\src\lnumprint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\VM\src\lobject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\VM\src\loslib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\VM\src\lperf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\VM\src\lstate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\VM\src\lstring.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\VM\src\lstrlib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\VM\src\ltable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\VM\src\ltablib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\VM\src\ltm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\VM\src\ludata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\VM\src\lutf8lib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\VM\src\lvmexecute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\VM\src\lvmload.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Luau\VM\src\lvmutils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ErrorLogger.h">
@@ -191,6 +938,546 @@
     </ClInclude>
     <ClInclude Include="Graphics\ImGui\imstb_truetype.h">
       <Filter>Header Files\Graphics\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\Anyification.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\ApplyTypeFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\AstJsonEncoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\AstQuery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\Autocomplete.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\BuiltinDefinitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\Cancellation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\Clone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\Constraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\ConstraintGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\ConstraintSolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\ControlFlow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\DataFlowGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\DcrLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\Def.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\Differ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\Documentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\Error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\FileResolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\Frontend.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\GlobalTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\InsertionOrderedMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\Instantiation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\IostreamHelpers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\JsonEmitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\Linter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\LValue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\Metamethods.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\Module.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\ModuleResolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\NonStrictTypeChecker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\Normalize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\NotNull.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\Predicate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\Quantify.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\RecursionCounter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\Refinement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\RequireTracer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\Scope.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\Simplify.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\Substitution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\Subtyping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\Symbol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\ToDot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\TopoSortStatements.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\ToString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\Transpiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\TxnLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\Type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\TypeArena.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\TypeAttach.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\TypeChecker2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\TypeCheckLimits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\TypedAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\TypeFamily.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\TypeFwd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\TypeInfer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\TypeOrPack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\TypePack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\TypePairHash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\TypePath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\TypeUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\Unifiable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\Unifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\Unifier2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\UnifierSharedState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\Variant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Analysis\include\Luau\VisitType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Ast\include\Luau\Ast.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Ast\include\Luau\Confusables.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Ast\include\Luau\Lexer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Ast\include\Luau\Location.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Ast\include\Luau\ParseOptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Ast\include\Luau\Parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Ast\include\Luau\ParseResult.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Ast\include\Luau\StringUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Ast\include\Luau\TimeTrace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\include\Luau\AddressA64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\include\Luau\AssemblyBuilderA64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\include\Luau\AssemblyBuilderX64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\include\Luau\CodeAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\include\Luau\CodeBlockUnwind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\include\Luau\CodeGen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\include\Luau\ConditionA64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\include\Luau\ConditionX64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\include\Luau\IrAnalysis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\include\Luau\IrBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\include\Luau\IrCallWrapperX64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\include\Luau\IrData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\include\Luau\IrDump.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\include\Luau\IrRegAllocX64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\include\Luau\IrUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\include\Luau\IrVisitUseDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\include\Luau\Label.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\include\Luau\OperandX64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\include\Luau\OptimizeConstProp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\include\Luau\OptimizeFinalX64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\include\Luau\RegisterA64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\include\Luau\RegisterX64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\include\Luau\UnwindBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\include\Luau\UnwindBuilderDwarf2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\include\Luau\UnwindBuilderWin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\include\luacodegen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\src\BitUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\src\ByteUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\src\CodeGenA64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\src\CodeGenLower.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\src\CodeGenUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\src\CodeGenX64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\src\EmitBuiltinsX64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\src\EmitCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\src\EmitCommonA64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\src\EmitCommonX64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\src\EmitInstructionX64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\src\IrLoweringA64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\src\IrLoweringX64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\src\IrRegAllocA64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\src\IrTranslateBuiltins.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\src\IrTranslation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\src\IrValueLocationTracking.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\CodeGen\src\NativeState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Common\include\Luau\Bytecode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Common\include\Luau\BytecodeUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Common\include\Luau\Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Common\include\Luau\DenseHash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Common\include\Luau\ExperimentalFlags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Compiler\include\Luau\BytecodeBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Compiler\include\Luau\Compiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Compiler\include\luacode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Compiler\src\BuiltinFolding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Compiler\src\Builtins.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Compiler\src\ConstantFolding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Compiler\src\CostModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Compiler\src\TableShape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Compiler\src\Types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Compiler\src\ValueTracking.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Config\include\Luau\Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\Config\include\Luau\LinterConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\extern\isocline\include\isocline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\extern\isocline\src\attr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\extern\isocline\src\bbcode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\extern\isocline\src\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\extern\isocline\src\completions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\extern\isocline\src\env.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\extern\isocline\src\highlight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\extern\isocline\src\history.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\extern\isocline\src\stringbuf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\extern\isocline\src\term.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\extern\isocline\src\tty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\extern\isocline\src\undo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\extern\doctest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\tests\AstQueryDsl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\tests\ClassFixture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\tests\ConstraintGeneratorFixture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\tests\DiffAsserts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\tests\Fixture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\tests\IostreamOptional.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\tests\RegisterCallbacks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\tests\ScopedFlags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\VM\include\lua.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\VM\include\luaconf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\VM\include\lualib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\VM\src\lapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\VM\src\lbuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\VM\src\lbuiltins.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\VM\src\lbytecode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\VM\src\lcommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\VM\src\ldebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\VM\src\ldo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\VM\src\lfunc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\VM\src\lgc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\VM\src\lmem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\VM\src\lnumutils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\VM\src\lobject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\VM\src\lstate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\VM\src\lstring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\VM\src\ltable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\VM\src\ltm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\VM\src\ludata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Luau\VM\src\lvm.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
