@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -205,6 +205,17 @@
     <ClCompile Include="Luau\Ast\src\Parser.cpp" />
     <ClCompile Include="Luau\Ast\src\StringUtils.cpp" />
     <ClCompile Include="Luau\Ast\src\TimeTrace.cpp" />
+    <ClCompile Include="Luau\CLI\Analyze.cpp" />
+    <ClCompile Include="Luau\CLI\Ast.cpp" />
+    <ClCompile Include="Luau\CLI\Compile.cpp" />
+    <ClCompile Include="Luau\CLI\Coverage.cpp" />
+    <ClCompile Include="Luau\CLI\FileUtils.cpp" />
+    <ClCompile Include="Luau\CLI\Flags.cpp" />
+    <ClCompile Include="Luau\CLI\Profiler.cpp" />
+    <ClCompile Include="Luau\CLI\Reduce.cpp" />
+    <ClCompile Include="Luau\CLI\Repl.cpp" />
+    <ClCompile Include="Luau\CLI\ReplEntry.cpp" />
+    <ClCompile Include="Luau\CLI\Web.cpp" />
     <ClCompile Include="Luau\CodeGen\src\AssemblyBuilderA64.cpp" />
     <ClCompile Include="Luau\CodeGen\src\AssemblyBuilderX64.cpp" />
     <ClCompile Include="Luau\CodeGen\src\CodeAllocator.cpp" />
@@ -499,6 +510,11 @@
     <ClInclude Include="Luau\Ast\include\Luau\ParseResult.h" />
     <ClInclude Include="Luau\Ast\include\Luau\StringUtils.h" />
     <ClInclude Include="Luau\Ast\include\Luau\TimeTrace.h" />
+    <ClInclude Include="Luau\CLI\Coverage.h" />
+    <ClInclude Include="Luau\CLI\FileUtils.h" />
+    <ClInclude Include="Luau\CLI\Flags.h" />
+    <ClInclude Include="Luau\CLI\Profiler.h" />
+    <ClInclude Include="Luau\CLI\Repl.h" />
     <ClInclude Include="Luau\CodeGen\include\luacodegen.h" />
     <ClInclude Include="Luau\CodeGen\include\Luau\AddressA64.h" />
     <ClInclude Include="Luau\CodeGen\include\Luau\AssemblyBuilderA64.h" />
@@ -621,6 +637,9 @@
       <ShaderType Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Vertex</ShaderType>
       <ShaderModel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">5.0</ShaderModel>
     </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="LICENSE.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
